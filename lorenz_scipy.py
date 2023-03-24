@@ -35,7 +35,7 @@ x, y, z = soln.sol(t)
 
 # Plot the Lorenz attractor using a Matplotlib 3D projection.
 fig = plt.figure(facecolor='k', figsize=(WIDTH/DPI, HEIGHT/DPI))
-ax = fig.gca(projection='3d')
+ax = fig.add_subplot(projection='3d')
 ax.set_facecolor('k')
 fig.subplots_adjust(left=0, right=1, bottom=0, top=1)
 
